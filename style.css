@@ -1,0 +1,107 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #3d3433;
+    color: #333;
+}
+
+header {
+    background-color: #282828;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+
+h1, h2, p {
+    margin: 0;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+section {
+    margin: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+a {
+    text-decoration: none;
+    color: #bb2727;
+    display: block;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+a:hover {
+    background-color: #4e2c2c;
+    color: #fff;
+    transform: scale(1.05);
+}
+
+#carListContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+img {
+    max-width: 70%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+#showMoreButton {
+    margin-top: 20px;
+    padding: 15px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #6d3e3e;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+#showMoreButton:hover {
+    background-color: #ad1e1e;
+    transform: scale(1.05);
+}
+
+#searchBar {
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: border-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+#searchBar:hover {
+    border-color: #007bff;
+}
+
+#favoritesContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
